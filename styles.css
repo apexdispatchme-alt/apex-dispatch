@@ -299,6 +299,10 @@ h3 { font-size: 1.12rem; margin-bottom: 8px; }
 .price-card ul li { position: relative; padding-left: 26px; }
 .price-card ul li::before { content: "✓"; position: absolute; left: 0; color: var(--amber); font-weight: 800; }
 .pricing-note { max-width: 720px; margin: 0 auto; color: var(--muted); text-align: center; font-size: 0.95rem; }
+.pricing-single { max-width: 720px; margin: 0 auto 26px; }
+.pricing-single .price-card ul { margin-bottom: 24px; }
+.call-big { font-size: 1.6rem; font-weight: 800; letter-spacing: 0.02em; margin-top: 6px; }
+.call-big a { color: var(--amber); }
 
 /* ============ Contact ============ */
 .contact-grid {
